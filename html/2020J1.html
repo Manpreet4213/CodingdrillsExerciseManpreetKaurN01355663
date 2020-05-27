@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>2020 J1 Exercise</title>
+    <script src="../js/2020J1.js"></script>
+  </head>
+  <body>
+    <h1>Barley's Happiness Score</h1>
+    <form action="2020J1.html" method="POST" name="score_form">
+    <div>  
+      <label for="treatSmall">Small treats received:</label>
+      <input type="text" name="treatSmall" id="treatSmall" placeholder="Type small treat count"/>
+    </div>
+    
+    <div>
+      <label for="treatMedium">Medium treats received:</label>
+      <input type="text" name="treatMedium" id="treatMedium" placeholder="Type medium treat count"/>
+   </div>
+   
+   <div>
+      <label for="treatLarge">Large treats received:</label>
+      <input type="text" name="treatLarge" id="treatLarge" placeholder="Type large treat count"/>
+   </div>
+   
+   <div>
+		<input type="submit" value="Calculate happiness score" name="submit" />
+   </div>
+
+
+    <div id="error"></div>
+    <p>Barley's mood : <span id="result"></span></p>  
+    </form>
+  </body>
+</html>
