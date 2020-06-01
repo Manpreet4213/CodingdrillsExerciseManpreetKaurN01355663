@@ -14,7 +14,7 @@ window.onload = function() {
         var four = parseInt(document.forms[0].fourthInteger.value);
         var five = parseInt(document.forms[0].fivthInteger.value);
         //to convert string to integer used parseInt
-        
+        // I am not sure how to write this to ensure scalability. But, i have made changes in the else part of the problem.
         var output = document.getElementById("result");
         
         //now, if the one or more of numbers is not entered or is 
@@ -30,6 +30,7 @@ window.onload = function() {
                                "A".repeat(four) +"\n" +
                                "X".repeat(five) +"\n"; 
         } 
+        // I have made changes in this part for saclabilty.
         // used .repeat to repeat anything for a particular number or time.
         return false;
     }  
