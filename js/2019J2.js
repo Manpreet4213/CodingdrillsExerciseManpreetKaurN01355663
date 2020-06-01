@@ -25,10 +25,10 @@ window.onload = function() {
            
         } 
         else{
-           output.innerText += "+".repeat(two) +"\n";
-           output.innerText += "-".repeat(three) +"\n";
-           output.innerText += "A".repeat(four) +"\n";
-           output.innerText += "X".repeat(five) +"\n";  
+           output.innerText += "+".repeat(two) +"\n" + 
+                               "-".repeat(three) +"\n" +
+                               "A".repeat(four) +"\n" +
+                               "X".repeat(five) +"\n"; 
         } 
         // used .repeat to repeat anything for a particular number or time.
         return false;
